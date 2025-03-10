@@ -11,7 +11,7 @@
 </head>
 <body>
     <header>
-        <img class="logo" src="images/logo.png" alt="PartyInHere Logo">
+        <img class="logo" src="logo.png" alt="PartyInHere Logo">
         <nav class="nav-bar">
             <a href="#">Home</a>
             <a href="#shop">Shop</a>
@@ -20,7 +20,6 @@
             <a href="#contact">Contact</a>
             <a href="#account">Account</a>
             <a href="#cart">Cart (<span id="cart-count">0</span>)</a>
-            <a href="#admin">Admin Dashboard</a>
         </nav>
     </header>
 
@@ -35,31 +34,6 @@
         <p>Total: $<span id="cart-total">0.00</span></p>
         <button class="cta-button" onclick="checkout()">Checkout with Stripe</button>
     </div>
-
-    <section class="product-gallery">
-        <h2>Our Featured Products</h2>
-        <div class="product">
-            <img src="images/light1.jpg" alt="DJ Light">
-            <h3>Shaking Head DJ Light</h3>
-            <p>$129.99</p>
-            <p class="ai-description">An AI-generated description for the DJ light...</p>
-            <button class="cta-button" onclick="addToCart('Shaking Head DJ Light', 129.99)">Add to Cart</button>
-        </div>
-        <div class="product">
-            <img src="images/fog_machine.jpg" alt="Fog Machine">
-            <h3>1500W DMX LED Fog Machine</h3>
-            <p>$189.99</p>
-            <p class="ai-description">An AI-generated description for the fog machine...</p>
-            <button class="cta-button" onclick="addToCart('1500W DMX LED Fog Machine', 189.99)">Add to Cart</button>
-        </div>
-    </section>
-
-    <section id="admin">
-        <h2>Admin Dashboard</h2>
-        <button class="cta-button" onclick="viewOrders()">View Orders</button>
-        <button class="cta-button" onclick="updateStock()">Update Stock</button>
-        <div id="admin-content"></div>
-    </section>
 
     <footer>
         <p>Contact us at: support@partyinhere.com | Exclusive Deals Available</p>
