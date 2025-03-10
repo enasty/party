@@ -1,0 +1,31 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #1a1a1a, #ff5733);
+    color: white;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+header {
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    background: #111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    width: 180px;
+}
+.nav-bar {
+    display: flex;
+    gap: 20px;
+}
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
